@@ -1,0 +1,13 @@
+.navigation-bar{
+    background-color: whitesmoke;
+}
+
+.nav-items{
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+.nav-items:hover{
+    background-color: rgba(218, 165, 32, 0.685);
+    color: white;
+}
