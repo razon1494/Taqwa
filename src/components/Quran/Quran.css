@@ -1,0 +1,22 @@
+.quran-container{
+    background-image: url("../../img/new.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    min-height: 700px;
+}
+.text-container{
+    background-color:rgba(128, 128, 128, 0.445);
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    text-align: justify;
+    margin: 200px auto;
+    transition-duration: 1s;
+
+}
+.text-container:hover{
+    color:maroon;
+    background-color: mediumaquamarine;
+}
