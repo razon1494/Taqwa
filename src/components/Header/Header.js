@@ -4,7 +4,7 @@ import NavigationBar from '../NavigationBar/NavigationBar';
 import HeaderTop from '../HeaderTop/HeaderTop';
 const Header = () => {
     return (
-        <div>
+        <div className=''>
             <HeaderTop/>
             <NavigationBar/>
         </div>

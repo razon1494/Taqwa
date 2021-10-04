@@ -10,13 +10,28 @@
     background-color:rgba(128, 128, 128, 0.445);
     align-items: center;
     justify-content: center;
-    color:aliceblue;
+    color:white;
     text-align: justify;
-    margin: 200px auto;
+    margin: 200px 100px;
     transition-duration: 1s;
+    padding: 20px;
+    border-radius: 10px;
 
 }
 .text-container:hover{
-    color:maroon;
-    background-color: mediumaquamarine;
+    color:whitesmoke;
+    background-color:darkslategray;
+}
+
+.enroll-btn{
+    background-color:aliceblue;
+    border: none;
+    border-radius:5px ;
+    color:saddlebrown;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.enroll-btn:hover{
+    color: maroon;
+    background-color: mintcream;
 }

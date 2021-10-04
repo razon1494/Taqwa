@@ -3,6 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook, faGoogle, faTwitter, faYoutube} from '@fortawesome/free-brands-svg-icons';
 import {faClock,faMapMarkerAlt, faPhoneVolume} from '@fortawesome/free-solid-svg-icons';
+import {Link} from 'react-router-dom';
 const HeaderTop = () => {
     return (
         <div>
@@ -19,9 +20,10 @@ const HeaderTop = () => {
             </div>
 
             <div className="call-now">
-                <a href='/call' className='call'>
+                <Link to='/call' className='call'>
                     <FontAwesomeIcon className='text-dark' icon={faPhoneVolume}/><span className='fw-bold text-dark'> Call Now  </span> +88-01744-941494
-                </a>
+                    </Link>
+
             </div>
             <div className="call-now">
                 <p className='call'>

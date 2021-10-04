@@ -7,8 +7,10 @@ const NavigationBar = () => {
         <div className="">
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
   <Container>
-  <Navbar.Brand to='/home'>
+            <Navbar.Brand>
+              <NavLink  to='/home' className='navbar-title'>
                 <h2>Taqwa Islamic Center</h2>
+                </NavLink>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
