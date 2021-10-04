@@ -1,11 +1,16 @@
 import {Button} from 'react-bootstrap';
 import React from 'react';
 import './SingleCourse.css'
+import {useHistory} from 'react-router';
 const SingleCourse=(props) => {
     //Destructuring each course from props
     const {course}=props;
     // Taking data from course object to show in card
-    const {hadithId,hadithName, quantity,classes, duration, fee,img}=course;
+    const {hadithId, hadithName, quantity, classes, duration, fee, img}=course;
+    const history=useHistory();
+    const handleEnroll=() => {
+        history.push(`/courses/${hadithId}`);
+    }
     return (
         <div className="col-5  m-3 course">
             <h3 className='code text-center'>Course Code: {1000+hadithId}</h3>
@@ -20,7 +25,7 @@ const SingleCourse=(props) => {
             <p>Course Duration: {duration}</p>
             <p>Total Classes: {classes} Classes (120min/class)</p>
                     <p>Course Fee : {fee}/=</p>
-             <Button variant="secondary"> Enroll Now</Button>
+                    <Button onClick={handleEnroll} variant="secondary"> Enroll Now</Button>
             </div>
 </div>
         </div>

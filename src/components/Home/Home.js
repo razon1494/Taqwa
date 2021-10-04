@@ -2,7 +2,7 @@ import React from 'react';
 import useHadith from '../../hooks/useHadith';
 import SingleCourse from '../SingleCourse/SingleCourse';
 import Slider from '../Slider/Slider';
-import './Home.css'
+import './Home.css';
 const Home=() => {
     const [courses]=useHadith();
     //filtering popular courses based on course fee
@@ -19,7 +19,7 @@ const Home=() => {
                 {
                     // showing popular courses
                     popularCourses.map(course => <SingleCourse
-                        key={course.id}
+                        key={course.hadithId}
                         course={course}
                     ></SingleCourse>)
                 }

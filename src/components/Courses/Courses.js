@@ -14,7 +14,7 @@ const Courses=() => {
                 {
                     //showing all courses
                     courses.map(course => <SingleCourse
-                        key={course.id}
+                        key={course.hadithId}
                         course={course}
                     ></SingleCourse>)
                 }

@@ -7,6 +7,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Courses from './components/Courses/Courses';
 import Quran from './components/Quran/Quran';
+import Enroll from './components/Enroll/Enroll';
 
 function App() {
   //Routing Done Here
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/courses">
             <Courses></Courses>
+          </Route>
+          <Route exact path="/courses/:courseId">
+            <Enroll></Enroll>
           </Route>
           <Route exact path="/quran">
             <Quran></Quran>

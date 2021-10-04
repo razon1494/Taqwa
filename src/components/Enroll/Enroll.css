@@ -1,0 +1,23 @@
+.enroll{
+    background-image: url("../../img/new.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    min-height: 850px;
+}
+.enroll-text{
+    background-color:rgba(80, 80, 80, 0.75);
+    align-items: center;
+    justify-content: center;
+    color:white;
+    text-align: justify;
+    /* margin: 150px 100px; */
+    transition-duration: 1s;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 200px;
+    width: 50%;
+    padding: 100px;
+    margin-left: 100px;
+}
