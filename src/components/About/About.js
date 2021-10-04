@@ -22,7 +22,7 @@ To make this vision a reality, Bayyinah offers a variety of full-time, part-time
                 <p className='about-p'>Taqwa Foundation is a non-profit organization created with a passion to give back to the Muslim community by launching Quranic & Arabic based learning initiatives to educate both those in the United States and abroad.</p>
             </div>
             <div className="instructors">
-                <h2>We Have World's Famous Instructor. Here Are They </h2>
+                <h2>We Have World's Famous Instructor.</h2>
                 <div className="instructor row g-4 justify-content-center">
                     {
                         // Showing Instructors

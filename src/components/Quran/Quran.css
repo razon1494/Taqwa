@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
-    min-height: 700px;
+    min-height: 850px;
 }
 .text-container{
     background-color:rgba(80, 80, 80, 0.75);
@@ -12,18 +12,19 @@
     justify-content: center;
     color:white;
     text-align: justify;
-    margin: 200px 100px;
+    margin: 150px 100px;
     transition-duration: 1s;
     padding: 20px;
     border-radius: 10px;
-
+    min-height: 200px;
 }
 .text-container:hover{
     color:whitesmoke;
     background-color:rgba(47, 79, 79, 0.726);
 }
 
-.enroll-btn{
+.choice-btn{
+    text-decoration: none;
     background-color:aliceblue;
     border: none;
     border-radius:5px ;
@@ -31,7 +32,29 @@
     padding: 10px 20px;
     font-weight: bold;
 }
-.enroll-btn:hover{
+.choice-btn:hover{
     color: maroon;
     background-color: mintcream;
+}
+.miss-text{
+color: goldenrod;
+letter-spacing: 0.09rem;
+}
+.miss-p{
+    color: lightgreen;
+}
+#group-link{
+    line-height: 50px;
+    color: lightgreen;
+}
+.code-kalima{
+    color: greenyellow;
+}
+.remove-click{
+    color:chocolate;
+    text-decoration: none;
+}
+.remove-click:hover{
+    color:rgba(199, 21, 134, 0.562);
+    color: goldenrod;
 }
