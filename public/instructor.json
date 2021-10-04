@@ -1,0 +1,19 @@
+[
+    {
+        "key":0,
+        "name":"Dr Mufti Ismail Menk",
+        "post":"Quran Tafsir & Motivational Speaker",
+        "img":"https://muftimenk.com/wp-content/uploads/mufti-menk.jpg"},
+    {
+        "key":1,
+        "name":"Dr. Bilal Philips",
+        "post":"Hadith & Fatawa",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/c/c1/Bilal_Philips.jpg"
+    },
+    {
+        "key":2,
+        "name":"Qari Omar Hisham Al-Arabi",
+        "post":"Quran Tilwat & Mashk",
+        "img":"https://i1.sndcdn.com/avatars-000293139508-l78794-t500x500.jpg"
+    }
+]

@@ -9,6 +9,7 @@ import Courses from './components/Courses/Courses';
 import Quran from './components/Quran/Quran';
 
 function App() {
+  //Routing Done Here
   return (
     <div>
       <Router>
@@ -29,7 +30,7 @@ function App() {
           <Route exact path="/quran">
             <Quran></Quran>
           </Route>
-          <Route path="*">
+          <Route path="/*">
             <NotFound></NotFound>
           </Route>
         </Switch>

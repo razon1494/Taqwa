@@ -1,5 +1,6 @@
 import {useEffect} from 'react';
 import {useState} from 'react';
+//getting courses
 const useHadith=() => {
     const [courses, setCourses]=useState([]);
     useEffect(() => {

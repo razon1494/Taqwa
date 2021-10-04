@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Footer.css'
+//footer with social media icon and copyright
 const Footer = () => {
     return (
         <div className='footer'>

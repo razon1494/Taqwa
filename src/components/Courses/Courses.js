@@ -3,6 +3,7 @@ import useHadith from '../../hooks/useHadith';
 import SingleCourse from '../SingleCourse/SingleCourse';
 import './Courses.css'
 const Courses=() => {
+    //Destructuring to get all courses array
     const [courses]=useHadith();
     return (
         <div>
@@ -11,6 +12,7 @@ const Courses=() => {
             </div>
             <div className="popular-courses row mt-4 g-5 container justify-content-between mx-auto mb-4">
                 {
+                    //showing all courses
                     courses.map(course => <SingleCourse
                         key={course.id}
                         course={course}

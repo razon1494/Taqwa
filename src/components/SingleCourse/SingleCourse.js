@@ -1,8 +1,10 @@
+import {Button} from 'react-bootstrap';
 import React from 'react';
 import './SingleCourse.css'
 const SingleCourse=(props) => {
+    //Destructuring each course from props
     const {course}=props;
-    console.log(course);
+    // Taking data from course object to show in card
     const {hadithId,hadithName, quantity,classes, duration, fee,img}=course;
     return (
         <div className="col-5  m-3 course">
@@ -13,11 +15,12 @@ const SingleCourse=(props) => {
             </div>
             <div className="text m-3">
                 <h3>{hadithName}</h3>
-                <div className="text-center mb-3">
+                <div className=" mb-3">
             <small className=''>Total {quantity} hadiths you will learn</small></div>
             <p>Course Duration: {duration}</p>
             <p>Total Classes: {classes} Classes (120min/class)</p>
-            <p>Course Fee : {fee}/=</p>
+                    <p>Course Fee : {fee}/=</p>
+             <Button variant="secondary"> Enroll Now</Button>
             </div>
 </div>
         </div>

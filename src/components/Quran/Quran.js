@@ -1,6 +1,7 @@
 import React from 'react';
 import './Quran.css'
-const Quran = () => {
+const Quran=() => {
+    //Marketing Free Quran Course
     return (
         <div className='text-center quran-container row'>
             <div className="text-container col-4">

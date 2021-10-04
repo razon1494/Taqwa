@@ -2,6 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './NavigationBar.css';
 import {Navbar, Container, Nav} from 'react-bootstrap';
+
+// React-Bootstarp Navbar with NavLink
 const NavigationBar = () => {
     return (
         <div className="">

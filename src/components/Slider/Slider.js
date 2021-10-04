@@ -4,6 +4,7 @@ import './Slider.css';
 import slider1 from '../../img/sunnah.png'
 import slider2 from '../../img/quran.png'
 import slider3 from '../../img/hadith.png'
+//react-bootstrap carousel
 const Slider=() => {
     return (
         <div className='container mb-5'>

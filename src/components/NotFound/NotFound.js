@@ -1,6 +1,7 @@
 import React from 'react';
 import './NotFound.css'
-const NotFound = () => {
+const NotFound=() => {
+    //not found page to check click on the mobile number in header top
     return (
         <div className='text-center notfound-container row'>
             <div className="notfound-text col-4 text-center" >
