@@ -12,9 +12,9 @@ const SingleCourse=(props) => {
         history.push(`/courses/${hadithId}`);
     }
     return (
-        <div className="col-5  m-3 course">
+        <div className="col-md-5  m-3 course">
             <h3 className='code text-center'>Course Code: {1000+hadithId}</h3>
-            <div className="d-flex">
+            <div className="d-md-flex">
             <div className="img">
                 <img src={img} alt="" />
             </div>
